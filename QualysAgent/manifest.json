@@ -1,0 +1,52 @@
+{
+    "schemaVersion": "2.0",
+    "version": "1",
+    "publisher": "Accenture",
+    "packages": {
+        "windows": {
+            "_any": {
+                "x86_64": {
+                    "file": "Windows_QualysCloudAgent.zip"
+                }
+            }
+        },
+		"redhat": {
+            "_any": {
+                "x86_64": {
+                    "file": "Linux_RPM_QualysCloudAgent.x86_64.zip"
+                }
+            }
+        },
+        "amazon": {
+            "_any": {
+                "x86_64": {
+                    "file": "Linux_RPM_QualysCloudAgent.x86_64.zip"
+                }
+            }
+        },
+        "ubuntu": {
+            "_any": {
+                "x86_64": {
+                    "file": "Linux_Deb_QualysCloudAgent.x86_64.zip"
+                }
+            }
+        }
+    },
+    "files": {
+        "Windows_QualysCloudAgent.zip": {
+            "checksums": {
+                "sha256": "D5493557584AA6F100C6426A2B9E2B47B474BD1107365B7AF34726A2981D6F98"
+            }
+        },
+		"Linux_RPM_QualysCloudAgent.x86_64.zip": {
+            "checksums": {
+                "sha256": "1C3B6840895183885C6CB3850C4527676AF2057BC64210F9F7BBC0ECEDE29B75"
+            }
+        },
+		"Linux_Deb_QualysCloudAgent.x86_64.zip": {
+            "checksums": {
+                "sha256": "E04F1DF0253C0DC054521D23594B67C56BB55D843E4276E4A4B5C1541D94CC6E"
+            }
+        }
+    }
+}

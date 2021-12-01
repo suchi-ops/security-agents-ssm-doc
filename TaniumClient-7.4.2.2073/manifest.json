@@ -1,0 +1,77 @@
+{
+    "schemaVersion": "2.0",
+    "version": "7.4.2.2073",
+    "publisher": "Accenture",
+    "packages": {
+        "windows": {
+            "_any": {
+                "x86_64": {
+                    "file": "TaniumClient-7.4.2.2073-1.windows.x86_64.zip"
+                }
+            }
+        },
+		"redhat": {
+            "7.*": {
+                "x86_64": {
+                    "file": "TaniumClient-7.4.2.2073-1.rhe7.x86_64.zip"
+                }
+            },
+            "8.*": {
+                "x86_64": {
+                    "file": "TaniumClient-7.4.2.2073-1.rhe8.x86_64.zip"
+                }
+            }
+        },
+        "amazon": {
+            "2": {
+                "x86_64": {
+                    "file": "TaniumClient-7.4.2.2073-1.amzn2.zip"
+                }
+            },
+            "2018.03": {
+                "x86_64": {
+                    "file": "TaniumClient-7.4.2.2073-1.amzn2018.zip"
+                }
+            }
+        },
+        "ubuntu": {
+            "20.*": {
+                "x86_64": {
+                    "file": "taniumclient_7.4.2.2073-ubuntu20.zip"
+                }
+            }
+        }
+    },
+    "files": {
+        "TaniumClient-7.4.2.2073-1.windows.x86_64.zip": {
+            "checksums": {
+                "sha256": "38AE2E3936EBAFA2E2733E886D15BD98CAAD2FF16F6F55BB779E0EDA4B1DFFBC"
+            }
+        },
+		"TaniumClient-7.4.2.2073-1.rhe7.x86_64.zip": {
+            "checksums": {
+                "sha256": "E8D7064762E0C1A80C8C1A19E021B800A41FF46091A24EEB48547C2FD6FEB9C9"
+            }
+        },
+		"TaniumClient-7.4.2.2073-1.rhe8.x86_64.zip": {
+            "checksums": {
+                "sha256": "B807804819F4EB755BE596F2B1640A561D7846A05ED4F40A2502DCC3F10A73F3"
+            }
+        },
+		"TaniumClient-7.4.2.2073-1.amzn2.zip": {
+            "checksums": {
+                "sha256": "6D57DDC7780B5BEB3AC9D9989797C3D39DD2C5B26CCDB7AEEE647062E9CC9210"
+            }
+        },
+		"TaniumClient-7.4.2.2073-1.amzn2018.zip": {
+            "checksums": {
+                "sha256": "6C2DDA7A399C7D5FA28369E56C31D43B1EBC4B1ED7FE77989489431F7330982E"
+            }
+        },
+        "taniumclient_7.4.2.2073-ubuntu20.zip": {
+            "checksums": {
+                "sha256": "A8B49028F626617BDD1A1C72E9AE299D78E3939BFF9BE7D77A4E0083A6826C51"
+            }
+        }
+    }
+}

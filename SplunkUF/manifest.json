@@ -1,0 +1,47 @@
+{
+    "schemaVersion": "2.0",
+    "version": "1",
+    "publisher": "Accenture",
+    "packages": {
+        "windows": {
+            "_any": {
+                "x86_64": {
+                    "file": "Splunk_UF_win_installer.zip"
+                }
+            }
+        },
+		"redhat": {
+            "_any": {
+                "x86_64": {
+                    "file": "splunk-uf-installer-linux64.zip"
+                }
+            }
+        },
+        "amazon": {
+            "_any": {
+                "x86_64": {
+                    "file": "splunk-uf-installer-linux64.zip"
+                }
+            }
+        },
+        "ubuntu": {
+            "_any": {
+                "x86_64": {
+                    "file": "splunk-uf-installer-linux64.zip"
+                }
+            }
+        }
+    },
+    "files": {
+        "Splunk_UF_win_installer.zip": {
+            "checksums": {
+                "sha256": "7C1878FD40F8CB5A3D028FFC0211D21A3A4227D102FA96D177FA3DBD73589E1C"
+            }
+        },
+		"splunk-uf-installer-linux64.zip": {
+            "checksums": {
+                "sha256": "1207F99D9B56059EB4AA7C61D776E0530299CBD28044CC91DEB7C9B8233883B4"
+            }
+        }
+    }
+}
